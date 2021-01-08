@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 1100px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    background-image: url(images/backkk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    text-align: left;
+    float: left;
+}
+
+.head {
+    text-align: center;
+    height: 70px;
+    padding-top: 1px;
+}
+
+.nav {
+    height: 40px;
+    font-size: 24px;
+}
+
+
+  
+  a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.nav a{
+    padding-left: 20px;
+    color: black;
+    
+}
+
+.adp {
+    text-align: right;
+    float: right;
+}
+
+.main {
+    display: flex;
+    padding-top: 10px;
+}
+
+.content {
+    width: 50%;
+    height: 200px;
+}
+
+.mainimg {
+   
+    width: 550px;
+    height: 200px;
+}
+
+.cont {
+    line-height: 50px;
+    margin-bottom: 30px;
+}
